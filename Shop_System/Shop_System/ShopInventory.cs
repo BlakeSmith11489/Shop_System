@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -17,8 +17,8 @@ namespace Shop_System
         _itemList[2] = new Weapon("Glock", 20, 75, 1, "Always stay strapped homie.");
         _itemList[3] = new Armor("Blood Stained Shirt", 0, 5, 2, "Some clothes I picked from a hood rat tryna rob me.");
         _itemList[4] = new Armor("Light Weight BP Vest", 50, 100, 2, "You can't be rolling on them streets without one of these puppies son.");
-        _itemList[5] = new Potions("Hashbrown", 15, 3, 3, "Yo fat ass know you want this, straigt form mickey D's boy.");
-        _itemList[6] = new Potions("KFC Galon Bucket", 250, 350, 3, "If there is one thing all of us hood rats have in common its this stuff right here.");
+        _itemList[5] = new Potions("Hashbrown", 15, 3, 3, "Yo fat ass know you want this, straigt form Mickey D's boy.");
+        _itemList[6] = new Potions("High Dollar Herbs", 250, 350, 3, "All that needs to be said is, green makes everything go good my man.");
     }
 
     public ShopInventory(Items[] newList)
