@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace Shop_System
@@ -25,8 +27,8 @@ namespace Shop_System
             {
                 Console.Clear();
                 Console.WriteLine("What you tryna do bruh?");
-                Console.WriteLine("0: Exit\n1: Buy\n2: Sell\n");
-                Console.WriteLine(_player.GetName + ": " + _player.GetInventory().Gold + "        " + _merchant.GetName + ": " + _merchant.GetInventory().Gold);
+                Console.WriteLine("0: Exit\n1: Buy\n2: Sell\n3:Open Shop");
+                Console.WriteLine(_player.GetName + ": " + _player.GetInventory().Gold);
                 choice = Console.ReadLine();
 
                 if (choice == "0")
@@ -266,6 +268,8 @@ namespace Shop_System
                 }
             }
         }
+
+        
 
         //Displays options for the super user
         public void UserEditingMenu()

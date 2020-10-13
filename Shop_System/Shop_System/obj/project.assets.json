@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suici\\source\\repos\\Shop_System\\Shop_System\\Shop_System.csproj",
+      "projectUniqueName": "C:\\Users\\suici\\Source\\Repos\\BlakeSmith11489\\Shop_System\\Shop_System\\Shop_System\\Shop_System.csproj",
       "projectName": "Shop_System",
-      "projectPath": "C:\\Users\\suici\\source\\repos\\Shop_System\\Shop_System\\Shop_System.csproj",
+      "projectPath": "C:\\Users\\suici\\Source\\Repos\\BlakeSmith11489\\Shop_System\\Shop_System\\Shop_System\\Shop_System.csproj",
       "packagesPath": "C:\\Users\\suici\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suici\\source\\repos\\Shop_System\\Shop_System\\obj\\",
+      "outputPath": "C:\\Users\\suici\\Source\\Repos\\BlakeSmith11489\\Shop_System\\Shop_System\\Shop_System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suici\\AppData\\Roaming\\NuGet\\NuGet.Config",
