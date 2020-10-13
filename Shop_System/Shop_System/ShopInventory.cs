@@ -7,7 +7,7 @@ namespace Shop_System
     class ShopInventory
     {
         private Items[] _itemList;
-        private int _gold = 1500;
+        private int _gold = 15000;
 
     public ShopInventory()
     {
